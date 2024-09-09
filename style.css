@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+  }
+  
+  header h1 {
+      text-align: center;
+      color: rgb(0, 0, 0);
+  }
+  
+  main {
+      border: 1px solid rgb(102, 107, 102);
+      height: 60px;
+      background: rgb(5, 5, 5);
+  
+  }
+  
+  ul{
+      list-style: none;
+      text-align: center;
+  }
+  li {
+      text-align: center;
+      display: inline-flex;
+      margin: auto;
+      position: relative;
+  }
+  ul li a{
+      padding: 25px;
+      margin: -6px;
+      color: aliceblue;
+      text-decoration: none;
+  }
+  
+  img {
+      display: inline-block;
+      margin: 2opx;
+      height: 150px;
+      width: 150px;
+      justify-items: center;
+  
+  }
+  footer {
+      text-align: center;
+      color: black;
+  }
+  .container {
+      display: flex;
+      justify-content: space-between;
+      margin: 16px;
+      padding: 3px;
+  }
+  
+  .container p{
+      text-align: justify;
+  }
+  
+  #campo-video{
+      text-align: center;
+      justify-content: center;
+  }
